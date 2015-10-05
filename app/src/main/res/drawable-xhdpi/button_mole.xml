@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ボタンが押されている -->
+    <!-- フォーカスされていない -->
+    <item android:state_focused="false" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/mole_hit">
+            </item></layer-list>
+    </item>
+
+    <!-- ボタンが押されていない -->
+    <!-- フォーカスされていない -->
+    <item android:state_focused="false" android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@drawable/mole">
+            </item></layer-list>
+    </item>
+
+    <!-- ボタンが押されている -->
+    <!-- フォーカスされた -->
+    <item android:state_focused="true" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/mole_hit">
+            </item></layer-list>
+    </item>
+
+    <!-- ボタンが押されていない -->
+    <!-- フォーカスされた -->
+    <item android:state_focused="true" android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@drawable/mole">
+            </item></layer-list>
+    </item>
+
+
+</selector>
